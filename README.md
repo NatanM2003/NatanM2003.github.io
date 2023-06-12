@@ -1,4 +1,3 @@
-
 <html>
 <head>
   <title>Accountant Website</title>
