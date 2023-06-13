@@ -1,80 +1,3 @@
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Global styles */
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #f8f8f8;
-  color: #333;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Header styles */
-header {
-  background-color: #333;
-  padding: 20px 0;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 24px;
-  color: #fff;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Home section styles */
-section#home {
-  text-align: center;
-  padding: 100px 0;
-  background-color: #fff;
-}
-
-section#home h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-section#home p {
-  font-size: 18px;
-  margin-bottom: 40px;
-}
-
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
 /* Services section styles */
 section#services {
   padding: 80px 0;
@@ -99,15 +22,15 @@ section#services h2 {
 }
 
 .service:nth-child(2) {
-  background-color: #501B1D;
+  background-color: #372C2E;
 }
 
 .service:nth-child(3) {
-  background-color: #501B1D;
+  background-color: #DE9E48;
 }
 
 .service:nth-child(4) {
-  background-color: #501B1D;
+  background-color: #7A431D;
 }
 
 .service i {
