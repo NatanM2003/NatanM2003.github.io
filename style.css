@@ -90,6 +90,17 @@ section#services h2 {
 .service {
   text-align: center;
   margin-bottom: 40px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.service:nth-child(odd) {
+  background-color: #eaeaea;
+}
+
+.service:nth-child(even) {
+  background-color: #dcdcdc;
 }
 
 .service i {
