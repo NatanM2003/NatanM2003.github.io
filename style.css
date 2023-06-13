@@ -94,20 +94,8 @@ section#services h2 {
   border-radius: 4px;
 }
 
-.service1 {
+.service:first-child {
   background-color: #501B1D;
-}
-
-.service2 {
-  background-color: #372C2E;
-}
-
-.service3 {
-  background-color: #DE9E48;
-}
-
-.service4 {
-  background-color: #7A431D;
 }
 
 .service h3 {
