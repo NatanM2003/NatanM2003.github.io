@@ -95,19 +95,19 @@ section#services h2 {
 }
 
 .service:nth-child(1) {
-  background-color: ##83677B;
+  background-color: #501B1D;
 }
 
 .service:nth-child(2) {
-  background-color: ##83677B;
+  background-color: #501B1D;
 }
 
 .service:nth-child(3) {
-  background-color: #DE9E48;
+  background-color: #501B1D;
 }
 
 .service:nth-child(4) {
-  background-color: #7A431D;
+  background-color: #501B1D;
 }
 
 .service i {
