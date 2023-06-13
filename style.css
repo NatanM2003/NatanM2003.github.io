@@ -77,6 +77,7 @@ section#home p {
 
 /* Services section styles */
 section#services {
+  padding: 80px 0;
   background-color: #f8f8f8;
 }
 
@@ -93,12 +94,20 @@ section#services h2 {
   border-radius: 4px;
 }
 
-.service:nth-child(odd) {
-  background-color: #eaeaea; /* Alternate background color 1 */
+.service:nth-child(1) {
+  background-color: #563727;
 }
 
-.service:nth-child(even) {
-  background-color: #dcdcdc; /* Alternate background color 2 */
+.service:nth-child(2) {
+  background-color: #372C2E;
+}
+
+.service:nth-child(3) {
+  background-color: #DE9E48;
+}
+
+.service:nth-child(4) {
+  background-color: #7A431D;
 }
 
 .service i {
