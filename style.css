@@ -51,9 +51,38 @@ nav ul li a {
 
 /* Home section styles */
 section#home {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
   text-align: center;
   padding: 100px 0;
   background-color: #fff;
+}
+
+.office-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.app.goo.gl/epFiG4isNEga7V2o6');
+  background-size: cover;
+  background-position: center;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 section#home h1 {
