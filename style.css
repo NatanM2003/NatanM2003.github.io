@@ -55,7 +55,7 @@ section#home {
   height: 100vh;
   overflow: hidden;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 80px;
   padding-bottom: 80px;
   background-color: #fff;
 }
@@ -139,7 +139,7 @@ section#services h2 {
 
 /* About section styles */
 section#about {
-  padding: 0px 0;
+  padding: 80px 0;
   background-color: #fff;
 }
 
