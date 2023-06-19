@@ -55,7 +55,7 @@ section#home {
   height: 100vh;
   overflow: hidden;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #fff;
 }
