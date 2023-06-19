@@ -1,8 +1,10 @@
 /* animations.css */
 
-/* Add a fade-in animation to the section#home */
+/* Add a fade-in animation to the section#home when it comes into view */
 section#home {
-  animation: fade-in 2s ease-in-out;
+  opacity: 0;
+  animation: fade-in 1s ease-in-out forwards;
+  scroll-margin-top: 100vh;
 }
 
 @keyframes fade-in {
@@ -14,9 +16,12 @@ section#home {
   }
 }
 
-/* Add a slide-up animation to the services */
-.service {
-  animation: slide-up 2s ease-in-out;
+/* Add a slide-up animation to the .service elements in section#services when they come into view */
+section#services .service {
+  transform: translateY(100px);
+  opacity: 0;
+  animation: slide-up 1s ease-in-out forwards;
+  scroll-margin-top: 100vh;
 }
 
 @keyframes slide-up {
