@@ -3,7 +3,7 @@
 /* Add a fade-in animation to the section#home when it comes into view */
 section#home {
   opacity: 0;
-  animation: fade-in 1s ease-in-out forwards;
+  animation: fade-in 2s ease-in-out forwards;
   scroll-margin-top: 100vh;
 }
 
@@ -20,7 +20,7 @@ section#home {
 section#services .service {
   transform: translateY(100px);
   opacity: 0;
-  animation: slide-up 1s ease-in-out forwards;
+  animation: slide-up 2s ease-in-out forwards;
   scroll-margin-top: 100vh;
 }
 
