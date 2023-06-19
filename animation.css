@@ -2,7 +2,7 @@
 
 /* Add a fade-in animation to the section#home */
 section#home {
-  animation: fade-in 1s ease-in-out;
+  animation: fade-in 2s ease-in-out;
 }
 
 @keyframes fade-in {
@@ -16,7 +16,7 @@ section#home {
 
 /* Add a slide-up animation to the services */
 .service {
-  animation: slide-up 1s ease-in-out;
+  animation: slide-up 2s ease-in-out;
 }
 
 @keyframes slide-up {
