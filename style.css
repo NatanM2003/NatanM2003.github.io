@@ -53,12 +53,17 @@ section#home {
 }
 
 .centered-text h1 {
+  .centered-text h1 {
   font-size: 80px;
   font-weight: bold;
-  color: #fff;
+  color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  border: 1px solid #000;
-  padding: 10px;
+  -webkit-text-fill-color: white; /* Set the text fill color to white */
+  -webkit-text-stroke-width: 1px; /* Set the text stroke width to 1px */
+  -webkit-text-stroke-color: black; /* Set the text stroke color to black */
+  padding: 10px; /* Add padding to create some space around the text */
+}
+
 }
 
 section#home h1 {
