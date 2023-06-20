@@ -1,10 +1,3 @@
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* Global styles */
 body {
   font-family: 'Montserrat', sans-serif;
@@ -24,26 +17,6 @@ header {
   padding: 20px 0;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 24px;
-  color: #fff;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
 nav ul li a {
   color: #fff;
   text-decoration: none;
@@ -60,40 +33,23 @@ section#home {
   background-color: #fff;
 }
 
-.office-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('https://www.roomforzoom.com/backgrounds/Suits-Harvey-Specters-office-from-290.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.centered-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 .centered-text h1 {
   font-size: 80px;
   font-weight: bold;
-  color: #fff;
+  color: #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 section#home h1 {
   font-size: 50px;
   margin-bottom: 20px;
+  color: #333;
 }
 
 section#home p {
   font-size: 18px;
   margin-bottom: 40px;
+  color: #666;
 }
 
 .button {
@@ -115,6 +71,7 @@ section#services h2 {
   font-size: 30px;
   text-align: center;
   margin-bottom: 40px;
+  color: #333;
 }
 
 .service {
@@ -122,19 +79,19 @@ section#services h2 {
   margin-bottom: 40px;
   padding: 20px;
   border-radius: 4px;
-}
-
-.service:first-child {
-  background-color: #501B1D;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .service h3 {
   font-size: 24px;
   margin-bottom: 10px;
+  color: #333;
 }
 
 .service p {
   font-size: 16px;
+  color: #666;
 }
 
 /* About section styles */
@@ -147,6 +104,7 @@ section#about h2 {
   font-size: 30px;
   text-align: center;
   margin-bottom: 40px;
+  color: #333;
 }
 
 /* Contact section styles */
@@ -159,6 +117,7 @@ section#contact h2 {
   font-size: 30px;
   text-align: center;
   margin-bottom: 40px;
+  color: #333;
 }
 
 form input,
@@ -189,6 +148,5 @@ footer {
 
 footer p {
   color: #fff;
+  margin: 0;
 }
-
-
