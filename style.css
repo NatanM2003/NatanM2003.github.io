@@ -61,7 +61,7 @@ section#home {
   -webkit-text-fill-color: white; /* Set the text fill color to white */
   -webkit-text-stroke-width: 1px; /* Set the text stroke width to 1px */
   -webkit-text-stroke-color: black; /* Set the text stroke color to black */
-  padding: 10px; /* Add padding to create some space around the text */
+   
 }
 
 }
