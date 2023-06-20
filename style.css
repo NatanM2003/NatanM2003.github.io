@@ -1,3 +1,10 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Global styles */
 body {
   font-family: 'Montserrat', sans-serif;
@@ -15,6 +22,26 @@ body {
 header {
   background-color: #333;
   padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
 }
 
 nav ul li a {
@@ -53,7 +80,6 @@ section#home {
 }
 
 .centered-text h1 {
-  .centered-text h1 {
   font-size: 80px;
   font-weight: bold;
   color: #fff;
@@ -63,13 +89,11 @@ section#home {
 section#home h1 {
   font-size: 50px;
   margin-bottom: 20px;
-  color: #333;
 }
 
 section#home p {
   font-size: 18px;
   margin-bottom: 40px;
-  color: #666;
 }
 
 .button {
@@ -91,7 +115,6 @@ section#services h2 {
   font-size: 30px;
   text-align: center;
   margin-bottom: 40px;
-  color: #333;
 }
 
 .service {
@@ -99,19 +122,19 @@ section#services h2 {
   margin-bottom: 40px;
   padding: 20px;
   border-radius: 4px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service:first-child {
+  background-color: #501B1D;
 }
 
 .service h3 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #333;
 }
 
 .service p {
   font-size: 16px;
-  color: #666;
 }
 
 /* About section styles */
@@ -124,7 +147,6 @@ section#about h2 {
   font-size: 30px;
   text-align: center;
   margin-bottom: 40px;
-  color: #333;
 }
 
 /* Contact section styles */
@@ -137,7 +159,6 @@ section#contact h2 {
   font-size: 30px;
   text-align: center;
   margin-bottom: 40px;
-  color: #333;
 }
 
 form input,
@@ -168,5 +189,4 @@ footer {
 
 footer p {
   color: #fff;
-  margin: 0;
 }
